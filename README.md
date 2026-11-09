@@ -5,7 +5,7 @@
 ## 📌 About Me
 I’m an AI engineer with a background in web application and API penetration testing. I build LLM-powered apps, agent skills, and tools that automate manual workflows. I’m currently exploring how to use structured outputs and prompt evaluation to make AI behavior easier to test.
 
-**Credential** · Google AI Professional Certificate
+**Credentials** · Google AI Professional Certificate · eJPT (eLearnSecurity Junior Penetration Tester)
 
 ## 📊 GitHub Stats & Trophies
 <p align="center">
