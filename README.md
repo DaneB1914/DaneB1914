@@ -1,61 +1,17 @@
-# Dane Babcock · AI Engineer
+# Hi, I’m Dane
 
-I build LLM-powered apps, agent skills, and workflow automations. My background in web and API penetration testing shapes how I build and evaluate them.
+I build LLM-powered apps, agent skills, and workflow automations. My background is in web application and API penetration testing, where I learned to trace how systems behave, verify findings, and explain what needs fixing.
 
-[![ReportOps AI workflow. A structured pentest finding becomes a draft with reproduction steps, impact, and remediation.](./assets/reportops-workbench.svg)](https://github.com/DaneB1914/reportops-ai)
+I’m interested in remote AI engineering and automation roles where I can turn manual workflows into tools people can use and test. I’m currently getting deeper into prompt evaluation, structured outputs, and how to make agent behavior easier to verify.
 
-## Featured projects
+## Selected projects
 
-### 01 · ReportOps AI
-
-A Python tool that takes structured vulnerability findings and drafts pentest reports with reproduction steps, impact, and remediation.
-
-[View the repository](https://github.com/DaneB1914/reportops-ai)
-
-<details>
-<summary><strong>See an example finding</strong></summary>
-
-**Sample input** from the project README
-
-```json
-[
-  {
-    "title": "Cross-Site Scripting (XSS)",
-    "endpoint": "/search",
-    "method": "GET",
-    "description": "Reflected XSS in search parameter"
-  }
-]
-```
-
-**Illustrative draft** using a fictional target
-
-| Section | Draft |
+| Project | What I built |
 | --- | --- |
-| Finding | Reflected cross-site scripting in `GET /search`. |
-| Reproduction | On the test instance, submit a harmless JavaScript proof of concept through the search parameter and check whether it executes in the browser. |
-| Impact | A crafted search link could run script in the context of the application when a user opens it. |
-| Remediation | Apply context-appropriate output encoding when displaying the search term. Retest the affected response after the fix. |
+| [AI Engineering Reviewer](https://github.com/DaneB1914/ai-engineering-reviewer) | An open-source Agent Skill for Codex and Claude Code that guides reviews of code and technical designs. It asks reviewers to trace code paths, separate verified defects from open questions, and explain proposed fixes. |
+| [ReportOps AI](https://github.com/DaneB1914/reportops-ai) | A Python tool that turns structured vulnerability findings into draft penetration testing reports with reproduction steps, impact, and remediation. |
+| [ChoiceLens](https://github.com/DaneB1914/ChoiceLense) | A browser-based Gemini app for comparing options, adjusting criteria weights, and exploring trade-offs. Built in Google AI Studio as part of the Google AI Professional Certificate. |
 
-</details>
+**Tools I work with** · Python, TypeScript, React, Gemini, Codex, and Claude Code
 
-### 02 · AI Engineering Reviewer
-
-An open-source skill for Codex and Claude Code that traces relevant code paths and separates verified defects from risks that need testing.
-
-[View the skill](https://github.com/DaneB1914/ai-engineering-reviewer)
-
-### 03 · ChoiceLens
-
-A Gemini-powered web app for comparing options, adjusting criteria weights, and exploring trade-offs. Built in Google AI Studio.
-
-[View the repository](https://github.com/DaneB1914/ChoiceLense) · [Try the beta demo](https://choicelens-decisions.ai.studio/)
-
-## What I’m working on
-
-I’m getting deeper into prompt evaluation, structured outputs, and ways to make agent behavior easier to verify. I’m interested in remote AI engineering and automation roles.
-
-**Tools I use** · Python, TypeScript, React, Gemini, Codex, and Claude Code  
 **Credential** · Google AI Professional Certificate
-
-[Browse my GitHub repositories](https://github.com/DaneB1914?tab=repositories)
