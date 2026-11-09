@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="248" viewBox="0 0 880 248" role="img" aria-labelledby="title desc">
+  <title id="title">ReportOps AI workflow</title>
+  <desc id="desc">Pentest notes about reflected input at GET /search become a draft finding with reproduction steps, impact, and remediation.</desc>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; }
+    .copy { font-family: system-ui, sans-serif; }
+    .signal { animation: transfer 3s ease-in-out 2; }
+    @keyframes transfer {
+      0%, 15% { transform: translateX(-17px); opacity: 0; }
+      28% { opacity: 1; }
+      76% { opacity: 1; }
+      90%, 100% { transform: translateX(17px); opacity: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) { .signal { animation: none; } }
+  </style>
+  <rect width="880" height="248" rx="20" fill="#101820"/>
+  <rect x="1" y="1" width="878" height="246" rx="19" fill="none" stroke="#354855"/>
+  <circle cx="34" cy="35" r="4" fill="#77e3c2"/>
+  <text x="49" y="40" class="mono" font-size="15" letter-spacing="2" fill="#77e3c2">WORKBENCH / REPORTOPS AI</text>
+  <text x="30" y="82" class="copy" font-size="31" font-weight="700" fill="#f4f8fa">From pentest notes to a draft finding</text>
+  <rect x="30" y="107" width="358" height="111" rx="12" fill="#18262f" stroke="#3e5360"/>
+  <rect x="492" y="107" width="358" height="111" rx="12" fill="#18262f" stroke="#3e5360"/>
+  <g class="mono" font-size="14" font-weight="700" letter-spacing="1" fill="#77e3c2">
+    <text x="50" y="138">01 / FINDING INPUT</text>
+    <text x="512" y="138">02 / REPORT DRAFT</text>
+  </g>
+  <g class="copy" font-size="20" font-weight="650" fill="#f4f8fa">
+    <text x="50" y="172">GET /search</text>
+    <text x="512" y="172">Reflected XSS in search</text>
+  </g>
+  <g class="copy" font-size="16" fill="#b9c9d3">
+    <text x="50" y="197">Reflected input in the search parameter</text>
+    <text x="512" y="197">Reproduction · Impact · Remediation</text>
+  </g>
+  <path d="M405 163h67m-7-7 7 7-7 7" fill="none" stroke="#77e3c2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle class="signal" cx="437" cy="163" r="5" fill="#e4fff7" opacity="0"/>
+</svg>
