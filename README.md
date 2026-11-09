@@ -1,51 +1,17 @@
-# Hi, I’m Dane 👋
+# Hi, I’m Dane
 
-I’m an aspiring penetration tester building a strong foundation in offensive security through hands-on labs and structured learning.
+I build LLM-powered apps, agent skills, and workflow automations. My background is in web application and API penetration testing, where I learned to trace how systems behave, verify findings, and explain what needs fixing.
 
-I’m currently working through the **Junior Penetration Tester** learning path on TryHackMe, focusing on understanding how common web vulnerabilities occur and how they’re tested in real-world assessments. My learning emphasizes **methodology, logic, and impact**, not just running tools or copying payloads.
+I’m interested in remote AI engineering and automation roles where I can turn manual workflows into tools people can use and test. I’m currently getting deeper into prompt evaluation, structured outputs, and how to make agent behavior easier to verify.
 
-I document my labs to reinforce my understanding and to practice clear, professional security reporting — an essential skill for penetration testing and consulting roles.
+## Selected projects
 
----
+| Project | What I built |
+| --- | --- |
+| [AI Engineering Reviewer](https://github.com/DaneB1914/ai-engineering-reviewer) | An open-source Agent Skill for Codex and Claude Code that guides reviews of code and technical designs. It asks reviewers to trace code paths, separate verified defects from open questions, and explain proposed fixes. |
+| [ReportOps AI](https://github.com/DaneB1914/reportops-ai) | A Python tool that turns structured vulnerability findings into draft penetration testing reports with reproduction steps, impact, and remediation. |
+| [ChoiceLens](https://github.com/DaneB1914/ChoiceLense) | A browser-based Gemini app for comparing options, adjusting criteria weights, and exploring trade-offs. Built in Google AI Studio as part of the Google AI Professional Certificate. |
 
-## 🔍 Current Focus Areas
-- Web application penetration testing fundamentals
-- Authentication and authorization testing
-- Business logic vulnerabilities
-- Manual testing with Burp Suite
-- Clear technical documentation
+**Tools I work with** · Python, TypeScript, React, Gemini, Codex, and Claude Code
 
----
-
-## 🛠 Tools & Technologies
-- Burp Suite (Proxy, Repeater, basic Intruder usage)
-- Kali Linux
-- Browser Developer Tools
-- Nmap (service discovery & enumeration)
-- Git & GitHub (documentation and version control)
-
----
-
-## 🧠 Security Concepts I’ve Practiced
-- Authentication Bypass
-- Insecure Direct Object References (IDOR)
-- Cross-Site Scripting (XSS)
-- Race Conditions & timing-based logic flaws
-- Web enumeration and application mapping
-- OWASP Top 10 (applied understanding)
-
----
-
-## 📁 Featured Work
-- 📌 TryHackMe lab write-ups (web security & pentesting fundamentals)
-- 📌 Structured documentation focused on impact and remediation
-
----
-
-## 🎯 Goal
-My goal is to grow into a junior penetration testing or security testing role where I can continue learning under experienced professionals, contribute thoughtfully to assessments, and build real-world experience.
-
----
-
-⚠️ **Disclaimer:**  
-All testing documented in this repository was performed against intentionally vulnerable systems provided by training platforms. No unauthorized testing was conducted.
+**Credential** · Google AI Professional Certificate
